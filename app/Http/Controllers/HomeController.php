@@ -11,6 +11,6 @@ class HomeController extends Controller
     public function index()
     {
         $data = Laracrud::all();        
-        return view('home', ['data' => $data]);
+        return view('home', compact('data'));
     }
 }

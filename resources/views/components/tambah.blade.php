@@ -55,10 +55,3 @@
         </div>
     </div>
 </div>
-
-
-@if(session('success'))
-    <div class="bg-green-500 text-white p-3 rounded-lg">
-        {{ session('success') }}
-    </div>
-@endif

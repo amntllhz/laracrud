@@ -22,6 +22,6 @@ class LaracrudController extends Controller
         Laracrud::create($request->all());
 
         // redirect
-        return redirect('/home')->with('success', 'Data Berhasil');
+        return redirect('/home')->with('success', 'Data Berhasil Ditambahkan');
     }
 }
