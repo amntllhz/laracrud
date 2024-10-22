@@ -10,6 +10,8 @@ class Laracrud extends Model
     use HasFactory;
 
     protected $table = 'laracrud';
+    protected $primaryKey = 'nim';
+    public $incrementing = false;
 
     protected $fillable = [
         'nim',
