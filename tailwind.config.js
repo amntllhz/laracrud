@@ -7,9 +7,22 @@ export default {
     "./node_modules/flowbite/**/*.js"
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily : {        
+        in : "'Inter var', sans-serif",
+      },
+    },
   },
   plugins: [
-    require('flowbite/plugin')
+    require('flowbite/plugin'),
+
+
+    function({ addUtilities }) {
+      addUtilities({
+        '.font-feature-settings-cv11': {
+          'font-feature-settings': '"cv11"',
+        },
+      }, ['responsive', 'hover']);
+    },
   ],
 }
