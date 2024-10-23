@@ -11,10 +11,7 @@ Route::get('/cek', function () {
     return view('welcome');
 });
 
-Route::get('/', function () {
-    return view('home');
-});
-
+Route::get('/', [HomeController::class, 'index'])->name('home');
 
 Route::post('/tambah-data', [LaracrudController::class, 'store'])->name('tambah.data');
 Route::get('/home', [HomeController::class, 'index']);
