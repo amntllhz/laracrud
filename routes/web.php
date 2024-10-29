@@ -11,6 +11,10 @@ Route::get('/cek', function () {
     return view('welcome');
 });
 
+Route::get('/hello', function () {
+    return view('hello');
+});
+
 Route::get('/', [HomeController::class, 'index'])->name('home');
 
 // other
