@@ -2,7 +2,7 @@
 <x-header></x-header>
 
 
-<section class="bg-gray-50 dark:bg-gray-900 p-3 sm:p-5 antialiased mt-20">
+<section class="bg-gray-50 dark:bg-gray-900 p-3 sm:p-5 antialiased mt-12">
     <div class="mx-auto max-w-screen-xl px-4 lg:px-12">
 
         {{-- coding here --}}
@@ -290,6 +290,10 @@
                                                                                           
                     </tbody>
                 </table>
+
+                <div class="p-5">
+                    {{ $data->links() }} <!-- Link pagination -->
+                </div>
             </div>     
 
         </div>
