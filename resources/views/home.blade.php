@@ -291,9 +291,14 @@
                     </tbody>
                 </table>
 
-                <div class="p-5">
-                    {{ $data->links() }} <!-- Link pagination -->
-                </div>
+                <div class="p-5 space-x-4 flex items-center justify-between">
+                    <div>
+                        <span class="bg-blue-100 text-blue-800 text-xs font-medium me-2 px-5 py-2 rounded-md dark:bg-blue-900 dark:text-blue-300">{{ $data->count() }} dari {{ $data->total() }} data</span>                        
+                    </div>                                       
+                    <div>
+                        {{ $data->links() }} <!-- Link pagination -->
+                    </div>
+                </div>      
             </div>     
 
         </div>
