@@ -168,7 +168,7 @@
 
                                         <div class=" flex flex-col text-left w-full max-w-xs p-2 rounded-md">
                                             <h2 class="text-xl font-bold text-indigo-950 mb-1">{{ $item->nama }}</h2>
-                                            <span class="inline-flex items-center rounded-md bg-blue-50 px-2 py-1 text-xs font-medium text-prim ring-1 ring-inset ring-prim/10 w-fit">{{ $item->nim }}</span>                                                   
+                                            <span class="inline-flex items-center rounded-md text-blue-500 bg-blue-50 px-2 py-1 text-xs font-medium text-prim ring-1 ring-inset ring-prim/10 w-fit">{{ $item->nim }}</span>                                                   
                                             <div class="mt-2">
                                                 <p class="text-sm text-gray-500">{{ $item->prodi }}</p>                          
                                                 <p class="text-sm text-gray-500">Kelas {{ $item->kelas }}</p>                            
