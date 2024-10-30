@@ -75,9 +75,12 @@
                                     <a href="#" data-modal-target="crud-modal" data-modal-toggle="crud-modal" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Tambah Data</a>
                                 </li>
                             </ul>
-                            <div class="py-1">
-                                <a href="#" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Delete all</a>
-                            </div>
+                            <form action="/logout" method="POST">
+                                @csrf
+                                <button id="logout" name="logout" type="submit" class="text-gray-700 text-left w-full text-sm py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
+                                    Keluar
+                                </button>
+                            </form>
                         </div>                            
                     </div>
                 </div>

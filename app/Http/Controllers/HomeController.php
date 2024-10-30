@@ -38,4 +38,11 @@ class HomeController extends Controller
 
         return redirect('/'); // Arahkan kembali ke halaman home
     }
+
+    public function logout(Request $request)
+    {
+        $request->session()->forget('user_session'); // Hapus session
+        return redirect('/hello'); // Arahkan kembali ke halaman hello
+    }
+
 }
