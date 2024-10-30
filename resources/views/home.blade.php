@@ -54,7 +54,7 @@
                                 <input name="search" type="text" id="search" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full pl-10 p-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="NIM, Nama ...">                            
                             </div>
                             <div class="flex">
-                                <button id="search-button" name="search-button" type="submit" class="text-white inline-flex items-center bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">                            
+                                <button id="search-button" name="search-button" type="submit" class="text-white inline-flex items-center bg-prim hover:bg-indigo-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">                            
                                     Search
                                 </button>
                             </div>
@@ -180,7 +180,7 @@
 
                                             <div class=" flex flex-col text-left w-full max-w-xs p-2 rounded-md">
                                                 <h2 class="text-xl font-bold text-indigo-950 mb-1">{{ $item->nama }}</h2>
-                                                <span class="inline-flex items-center rounded-md text-blue-500 bg-blue-50 px-2 py-1 text-xs font-medium text-prim ring-1 ring-inset ring-prim/10 w-fit">{{ $item->nim }}</span>                                                   
+                                                <span class="inline-flex items-center rounded-md bg-blue-50 px-2 py-1 text-xs font-medium text-prim ring-1 ring-inset ring-prim/10 w-fit">{{ $item->nim }}</span>                                                   
                                                 <div class="mt-2">
                                                     <p class="text-sm text-gray-500">{{ $item->prodi }}</p>                          
                                                     <p class="text-sm text-gray-500">Kelas {{ $item->kelas }}</p>                            
@@ -191,7 +191,7 @@
 
                                         {{-- modal footer --}}
                                         <div class="flex justify-end items-center">                                                                                
-                                            <button data-modal-toggle="view-{{ $item->nim }}" type="button" class="text-white inline-flex items-center bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">                                            
+                                            <button data-modal-toggle="view-{{ $item->nim }}" type="button" class="text-white inline-flex items-center bg-prim hover:bg-indigo-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">                                            
                                                 Kembali
                                             </button>
                                         </div>
@@ -250,7 +250,7 @@
                                                 </div>
                                             </div>
                                             <div class="flex items-center space-x-4">                                            
-                                                <button name="updateData" id="updateData" data-modal-toggle="view-{{ $item->nim }}" type="submit" class="text-white inline-flex items-center bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">                                                                                            
+                                                <button name="updateData" id="updateData" data-modal-toggle="view-{{ $item->nim }}" type="submit" class="text-white inline-flex items-center bg-prim hover:bg-indigo-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">                                                                                            
                                                     Update
                                                 </button>
                                             </div>
@@ -293,7 +293,7 @@
 
                 <div class="p-5 space-x-4 flex items-center justify-between">
                     <div>
-                        <span class="bg-blue-100 text-blue-800 text-xs font-medium me-2 px-5 py-2 rounded-md dark:bg-blue-900 dark:text-blue-300">{{ $data->count() }} dari {{ $data->total() }} data</span>                        
+                        <span class="bg-indigo-100 text-prim text-xs font-medium me-2 px-5 py-2 rounded-md dark:bg-blue-900 dark:text-blue-300">{{ $data->count() }} dari {{ $data->total() }} data</span>                        
                     </div>                                       
                     <div>
                         {{ $data->links() }} <!-- Link pagination -->

@@ -11,6 +11,9 @@ export default {
       fontFamily : {        
         in : "'Inter var', sans-serif",
       },
+      colors : {        
+        prim : '#6366f2',        
+      },
     },
   },
   plugins: [
