@@ -10,6 +10,11 @@ class HomeController extends Controller
     // ambil data dari laracrud    
     public function index(Request $request)
     {
+        // Cek apakah session ada
+        if (!$request->session()->has('user_session')) {
+            return view('hello'); // Arahkan ke halaman hello jika session belum ada
+        }
+
         $search = $request->input('search');        
 
         if ($search) {
@@ -25,4 +30,12 @@ class HomeController extends Controller
         return view('home', compact('data'));
     }
 
+    // Tambahkan metode untuk mengatur session
+    public function setSession(Request $request)
+    {
+        // Set session ketika tombol ditekan
+        $request->session()->put('user_session', true);
+
+        return redirect('/'); // Arahkan kembali ke halaman home
+    }
 }

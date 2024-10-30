@@ -16,6 +16,7 @@ Route::get('/hello', function () {
 });
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::post('/set-session', [HomeController::class, 'setSession']);
 
 // other
 Route::post('/tambah-data', [LaracrudController::class, 'store'])->name('tambah.data');
