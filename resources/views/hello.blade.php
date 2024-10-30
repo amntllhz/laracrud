@@ -14,7 +14,7 @@
                     <path d="M3 16V15C8.84 16.95 15.16 16.95 21 15V16" stroke="#6366F2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                     <path d="M3 9.0001C8.84 7.0501 15.16 7.0501 21 9.0001" stroke="#6366F2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>                                  
-                <p class="text-xs font-semibold text-prim">Laravel C-R-U-D Project</p>
+                <p class="text-xs font-semibold text-prim">Copyright amntllhz 2024</p>
             </div>
 
             {{-- headline --}}
@@ -34,7 +34,7 @@
         </div>
         
         <div class="w-2/3 translate-x-56">
-            <img src="{{ asset('images/hero-img-2.png') }}" alt="" class="0">
+            <img src="{{ asset('images/hero-img.png') }}" alt="" class="0">
         </div>        
     </div>
 </section>
