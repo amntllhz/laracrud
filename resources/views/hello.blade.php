@@ -19,7 +19,7 @@
 
             {{-- headline --}}
             <div class="flex flex-col mb-6">
-                <p class="text-5xl font-extrabold text-prim leading-tight mb-2">A Laravel Project <br> With C-R-U-D Features</p>
+                <p class="text-5xl font-extrabold text-prim leading-tight mb-2">A Laravel Project <br> With C-R-U-<span class="text-red-500">D</span> Features</p>
                 <p class="max-w-md text-base text-gray-500">"Laravel project with user-friendly Create, Read, Update, and Delete features, plus a handy search function!"</p>
             </div>
 
