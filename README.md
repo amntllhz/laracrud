@@ -18,7 +18,7 @@
 
 ###
 
-<p align="left">✨ Memiliki UI yang baik dan Jangan sama satu sama lain<br>📑 Terdapat Fitur : Create, Read, Update, Delete<br>🔁 Terkoneksi dengan database<br>🎛️ Implementasikan MVC (Model View Controller)</p>
+<p align="left">✨ Have a good UI and Don't be the same as each other<br>📑 There are features: Create, Read, Update, Delete<br>🔁 Connected to the database<br>🎛️ Implement MVC (Model View Controller)</p>
 
 ###
 
