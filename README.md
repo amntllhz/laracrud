@@ -14,14 +14,6 @@
 
 ###
 
-<h3 align="left">Project Requirement :</h3>
-
-###
-
-<p align="left">✨ Have a good UI and Don't be the same as each other<br>📑 There are features: Create, Read, Update, Delete<br>🔁 Connected to the database<br>🎛️ Implement MVC (Model View Controller)</p>
-
-###
-
 <h2 align="left">Tech Stack :</h2>
 
 ###
@@ -34,6 +26,10 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40" alt="mysql logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg" height="40" alt="tailwindcss logo"  />
 </div>
 
 ###
